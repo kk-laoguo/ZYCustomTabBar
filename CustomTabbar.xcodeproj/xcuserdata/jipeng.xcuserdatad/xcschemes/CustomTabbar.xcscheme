@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EACCCA0D1F28682D004FE7BE"
+               BuildableName = "CustomTabbar.app"
+               BlueprintName = "CustomTabbar"
+               ReferencedContainer = "container:CustomTabbar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EACCCA261F28682D004FE7BE"
+               BuildableName = "CustomTabbarTests.xctest"
+               BlueprintName = "CustomTabbarTests"
+               ReferencedContainer = "container:CustomTabbar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EACCCA311F28682D004FE7BE"
+               BuildableName = "CustomTabbarUITests.xctest"
+               BlueprintName = "CustomTabbarUITests"
+               ReferencedContainer = "container:CustomTabbar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EACCCA0D1F28682D004FE7BE"
+            BuildableName = "CustomTabbar.app"
+            BlueprintName = "CustomTabbar"
+            ReferencedContainer = "container:CustomTabbar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EACCCA0D1F28682D004FE7BE"
+            BuildableName = "CustomTabbar.app"
+            BlueprintName = "CustomTabbar"
+            ReferencedContainer = "container:CustomTabbar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EACCCA0D1F28682D004FE7BE"
+            BuildableName = "CustomTabbar.app"
+            BlueprintName = "CustomTabbar"
+            ReferencedContainer = "container:CustomTabbar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

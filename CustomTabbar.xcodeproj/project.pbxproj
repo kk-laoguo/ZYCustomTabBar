@@ -15,6 +15,11 @@
 		EACCCA211F28682D004FE7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACCCA1F1F28682D004FE7BE /* LaunchScreen.storyboard */; };
 		EACCCA2C1F28682D004FE7BE /* CustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACCCA2B1F28682D004FE7BE /* CustomTabbarTests.m */; };
 		EACCCA371F28682D004FE7BE /* CustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EACCCA361F28682D004FE7BE /* CustomTabbarUITests.m */; };
+		EACCCA461F286B89004FE7BE /* ZYTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EACCCA451F286B89004FE7BE /* ZYTabbar.m */; };
+		EACCCA491F287331004FE7BE /* ZYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACCCA481F287331004FE7BE /* ZYTabBarViewController.m */; };
+		EAF6B8F41F28D210003EBC27 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6B8F31F28D210003EBC27 /* HomeViewController.m */; };
+		EAF6B8F71F28D935003EBC27 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6B8F61F28D935003EBC27 /* MainViewController.m */; };
+		EAF6B8FA1F28E859003EBC27 /* ZYNavigationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6B8F91F28E859003EBC27 /* ZYNavigationVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		EACCCA321F28682D004FE7BE /* CustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACCCA361F28682D004FE7BE /* CustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarUITests.m; sourceTree = "<group>"; };
 		EACCCA381F28682D004FE7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACCCA441F286B89004FE7BE /* ZYTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabbar.h; sourceTree = "<group>"; };
+		EACCCA451F286B89004FE7BE /* ZYTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabbar.m; sourceTree = "<group>"; };
+		EACCCA471F287331004FE7BE /* ZYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarViewController.h; sourceTree = "<group>"; };
+		EACCCA481F287331004FE7BE /* ZYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarViewController.m; sourceTree = "<group>"; };
+		EAF6B8F21F28D210003EBC27 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EAF6B8F31F28D210003EBC27 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EAF6B8F51F28D935003EBC27 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EAF6B8F61F28D935003EBC27 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EAF6B8F81F28E859003EBC27 /* ZYNavigationVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNavigationVc.h; sourceTree = "<group>"; };
+		EAF6B8F91F28E859003EBC27 /* ZYNavigationVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNavigationVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,18 @@
 			children = (
 				EACCCA141F28682D004FE7BE /* AppDelegate.h */,
 				EACCCA151F28682D004FE7BE /* AppDelegate.m */,
+				EAF6B8F81F28E859003EBC27 /* ZYNavigationVc.h */,
+				EAF6B8F91F28E859003EBC27 /* ZYNavigationVc.m */,
+				EAF6B8F21F28D210003EBC27 /* HomeViewController.h */,
+				EAF6B8F31F28D210003EBC27 /* HomeViewController.m */,
+				EAF6B8F51F28D935003EBC27 /* MainViewController.h */,
+				EAF6B8F61F28D935003EBC27 /* MainViewController.m */,
 				EACCCA171F28682D004FE7BE /* ViewController.h */,
 				EACCCA181F28682D004FE7BE /* ViewController.m */,
+				EACCCA471F287331004FE7BE /* ZYTabBarViewController.h */,
+				EACCCA481F287331004FE7BE /* ZYTabBarViewController.m */,
+				EACCCA441F286B89004FE7BE /* ZYTabbar.h */,
+				EACCCA451F286B89004FE7BE /* ZYTabbar.m */,
 				EACCCA1A1F28682D004FE7BE /* Main.storyboard */,
 				EACCCA1D1F28682D004FE7BE /* Assets.xcassets */,
 				EACCCA1F1F28682D004FE7BE /* LaunchScreen.storyboard */,
@@ -276,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACCCA461F286B89004FE7BE /* ZYTabbar.m in Sources */,
 				EACCCA191F28682D004FE7BE /* ViewController.m in Sources */,
 				EACCCA161F28682D004FE7BE /* AppDelegate.m in Sources */,
 				EACCCA131F28682D004FE7BE /* main.m in Sources */,
+				EAF6B8F71F28D935003EBC27 /* MainViewController.m in Sources */,
+				EACCCA491F287331004FE7BE /* ZYTabBarViewController.m in Sources */,
+				EAF6B8F41F28D210003EBC27 /* HomeViewController.m in Sources */,
+				EAF6B8FA1F28E859003EBC27 /* ZYNavigationVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +546,7 @@
 				EACCCA3D1F28682D004FE7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACCCA3E1F28682D004FE7BE /* Build configuration list for PBXNativeTarget "CustomTabbarTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +555,7 @@
 				EACCCA401F28682D004FE7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACCCA411F28682D004FE7BE /* Build configuration list for PBXNativeTarget "CustomTabbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +564,7 @@
 				EACCCA431F28682D004FE7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
